@@ -3,3 +3,8 @@
 
 This Is Code For A Discord Bot That Translates Messages
 
+## Requirements
+- Python 3.8 Or Newer
+- A Discord Token
+- discord.py Python Package (https://pypi.org/project/discord.py/)
+- translators Python Package (https://pypi.org/project/translators/)
