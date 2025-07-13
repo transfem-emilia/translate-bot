@@ -1,10 +1,19 @@
 # translate-bot
-[![Supported Python versions](https://img.shields.io/badge/Python-3.12-blue)](https://monkeys-canada.github.io) ![Packages Needed](https://img.shields.io/badge/Packages_Needed%3A-translators-blue?link=https%3A%2F%2Fpypi.org%2Fproject%2Ftranslators%2F) ![Size](https://img.shields.io/github/size/monkeys-canada/translate-bot/translatebotfinal.py?logo=GitHub)
 
-This Is Code For A Discord Bot That Translates Messages
+A Discord bot that translates messages based on user reactions.
 
 ## Requirements
-- Python 3.8 Or Newer
-- A Discord Token
-- discord.py Python Package (https://pypi.org/project/discord.py/)
-- translators Python Package (https://pypi.org/project/translators/)
+
+- Python 3.8 or later  
+- A Discord bot (see [Creating a Bot Account](https://discordpy.readthedocs.io/en/stable/discord.html) for setup instructions)  
+- A Discord bot token  
+- The `discord.py` Python package  
+  [https://pypi.org/project/discord.py/](https://pypi.org/project/discord.py/)  
+- The `translators` Python package  
+  [https://pypi.org/project/translators/](https://pypi.org/project/translators/)
+
+## How It Works
+
+After a message is sent in a channel, users can react to it using a supported flag emoji (such as 🇫🇷 for French). The bot detects the reaction and replies with a translated version of the message in the corresponding language.
+
+> You can customize the list of supported languages and emoji in the source code.
